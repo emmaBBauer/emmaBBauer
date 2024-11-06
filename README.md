@@ -7,8 +7,8 @@
 - ⚡ Fun fact: You know that you are in a perfect relationship, when @JsonBackReference has two meanings ;)
 
 
-
-export const findUser = (email:string, password:string):IUser | undefined =>
+```
+ export const findUser = (email:string, password:string):IUser | undefined =>
 {
     const user:IUser | undefined= users_mock.find( (u:IUser) => {
         console.log("*****");
@@ -31,3 +31,6 @@ export const findUser = (email:string, password:string):IUser | undefined =>
 
     return user;
 }
+```
+
+
